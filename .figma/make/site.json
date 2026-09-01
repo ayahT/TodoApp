@@ -1,0 +1,10 @@
+{
+  "description": "Organize tasks efficiently with a simple to-do list app that helps users track, prioritize, and complete daily activities for improved productivity.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

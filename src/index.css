@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+:root {
+  --bg: #F4F2EC;
+  --fg: #1A1916;
+  --muted: #8C8A83;
+  --accent: #3B5BDB;
+  --accent-hover: #2F4AC4;
+  --border: rgba(26, 25, 22, 0.12);
+  --card: #FFFFFF;
+  --done: #C8C5BA;
+}
+
+* {
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+}
